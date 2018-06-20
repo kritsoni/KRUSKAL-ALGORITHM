@@ -55,7 +55,7 @@ g[i].t=0;
 i++;
 ch++;
 }
-last_weight = g[no_edge].e.weight;  //last one was causing trouble so explicit assignment
+last_weight = g[no_edge].e.weight;  
 last_src = g[no_edge].e.src;
 last_dest = g[no_edge].e.dest;
 last_t = g[no_edge].t;
